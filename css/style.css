@@ -16,7 +16,6 @@ body {
 }
 .main_header {
     background-color: #f5f5f5;
-    height: 925px;
     margin-bottom: 135px;
     margin: 0 auto;
 }
@@ -88,6 +87,8 @@ body {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0px 0px 30px 14px rgba(0,0,0,0.05);
+    position: relative;
+    top: 3px;
 }
 .form_title h3 {
     font-size: 20px;
@@ -166,6 +167,7 @@ body {
     width: 700px;
     min-height: 60px;
     margin: 0 auto;
+    margin-bottom: 32px;
 }
 .container {
     margin: 0 auto;
@@ -174,11 +176,13 @@ body {
     width: 1140px;
     margin-bottom: 154px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .working_items {
     width: 1140px;
     height: 290px;
     margin: 0 auto;
+    margin-bottom: 134px;
 }
 .working_items_item {
     float: left;
@@ -270,6 +274,7 @@ h4 {
     background-color: #fbfbfb;
     padding: 0;
     margin: 0 auto;
+    margin-bottom: 140px;
 }
 .title h2 {
     font-size: 50px;
@@ -278,6 +283,7 @@ h4 {
     padding: 0;
     margin-bottom: 35px;
     padding-top: 120px;
+    margin: 0;
 }
 .title h2 span {
     color: #ff8872;
@@ -288,12 +294,15 @@ h4 {
     font-size: 16px;
     color: #a3a3a3;
     min-height: 20px;
-    margin-bottom: 103px;
+    margin-bottom: 105px;
 }
 .featured_item {
     width: 1140px;
     margin: 0 auto;
     overflow: hidden;
+}
+.featured_title.title {
+    margin-bottom: 32px;
 }
 .featured_items {
     float: left;
@@ -307,9 +316,9 @@ h4 {
 }
 .services {
     width: 1140px;
-    min-height: 928px;
     padding: 0;
     margin: -103px auto;
+    overflow: hidden;
 }
 .services_item {
     float: left;
@@ -346,6 +355,10 @@ h4 {
     margin-top: 37px;
     margin-left: 0px;
     box-shadow: 0px 5px 17px -4px rgba(0,0,0,0.15);
+    margin-bottom: 236px;
+}
+.services_title {
+    margin-bottom: 32px;
 }
 .services_watch {
     float: right;
@@ -359,8 +372,8 @@ h4 {
 .team {
     margin: 0 auto;
     padding: 0;
-    min-height: 966px;
     width: 1140px;
+    overflow: hidden;
 }
 .team_text {
     margin-bottom: 125px;
@@ -369,6 +382,11 @@ h4 {
     width: 1140px;
     margin: 0 auto;
     min-height: 470px;
+    margin-bottom: 150px;
+}
+.team_title {
+    margin-top: 20px;
+    margin-bottom: 32px;
 }
 .team_items_item {
     background-color: #ff5c36;
@@ -549,17 +567,24 @@ p.team_items_item-info-text-designer {
     margin-bottom: 80px;
 }
 .sponsors {
-    height: 200px;
+    overflow: hidden;
 }
 .sponsors_items {
     width: 1170px;
     margin: 0 auto;
+    margin-bottom: 205px;
 }
-.sponsors_item_items a {
+.sponsors_item a {
     display: block;
     text-decoration: none;
     color: #000;
     font-size: 0;
+}
+.sponsors_item {
+    float: left;
+}
+.sponsors_item:last-child {
+    float: right;
 }
 .linked {
     float: left;
@@ -622,7 +647,6 @@ p.team_items_item-info-text-designer {
 .footer_container {
     width: 554px;
     margin: 0 auto;
-    min-height: 254px;
     overflow: auto;
 }
 .footer_contact {
@@ -676,6 +700,7 @@ a.footer_contact_btn {
 }
 .footer_social {
     width: 527px;
+    margin-bottom: 161px;
 }
 .block_content {
     width: 444px;
